@@ -21,6 +21,7 @@ groups:
       - ternary-operator
       - spread
       - for-in
+      - for-of
       - shallow-or-deep-clone
       - iterator
       - date
@@ -38,8 +39,13 @@ groups:
     items:
       - object
       - arrays
+      - typed-array
+      - data-view
+      - array-buffer
+      - shared-array-buffer
       - function-as-datatype
       - set
+      - weak-set
       - map
       - collection-weakmap
   - name: "Числа"
@@ -78,9 +84,18 @@ groups:
       - array-foreach
       - array-map
       - array-reduce
+      - array-reduce-right
+      - array-fill
+      - array-keys
+      - array-values
+      - array-entries
+      - array-tosorted
       - array-filter
+      - array-at
       - array-find
+      - array-find-last
       - array-find-index
+      - array-find-last-index
       - array-flat
       - array-flatmap
       - array-every
@@ -89,14 +104,29 @@ groups:
       - includes
       - index-of
       - last-index-of
+      - array-push
+      - array-pop
+      - array-shift
+      - array-unshift
+      - array-slice
+      - array-splice
+      - array-with
+      - array-copy-within
       - array-length
       - array-from
       - array-of
+      - array-concat
+      - array-join
+      - array-to-reversed
+      - array-to-spliced
+      - array-to-string
+      - array-to-locale-string
       - array-isarray
   - name: "Объекты"
     items:
       - object
       - object-tostring
+      - group-by
       - descriptors
       - objects-objects-everywhere
   - name : "Множества (`Set`)"

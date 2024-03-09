@@ -89,6 +89,7 @@ groups:
       - keyframes
       - media
       - supports
+      - layer
   - name: 'Глобальные ключевые слова'
     items:
       - global-keywords
@@ -235,6 +236,7 @@ groups:
   - name: 'Флексбоксы'
     items:
       - flexbox-guide
+      - flex-grow-shrink
       - flex
       - flex-basis
       - flex-direction
